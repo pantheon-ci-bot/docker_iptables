@@ -1,6 +1,8 @@
 docker_iptables
 ===============
 
+[![Unsupported](https://img.shields.io/badge/Pantheon-Unsupported-yellow?logo=pantheon&color=FFDC28)](https://pantheon.io/docs/oss-support-levels#unsupported)
+
 This script is intended to handle Docker iptables port-forwardings manually, for those times when
 you can't let Docker manage iptables on its own because it conflicts with other things on the
 system that are also trying to manage iptables.
